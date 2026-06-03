@@ -1,6 +1,15 @@
-MIT License
+DIY_Alliance Nixie Clock License
 
 Copyright (c) 2026 Dimasssius
+
+This repository uses different licenses for different types of materials.
+
+## 1. Firmware and source code
+
+Firmware, scripts and other source code files created by the project author are
+licensed under the MIT License.
+
+MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +28,44 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## 2. Documentation and project materials
+
+Documentation, manuals, BOM files, schematics, diagrams, images, photos,
+renders, 3D models and other project materials created by the project author
+are licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0).
+
+License text:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Human-readable summary:
+https://creativecommons.org/licenses/by/4.0/
+
+When republishing, redistributing or using these materials in other places,
+you must provide attribution to the original author and source.
+
+Recommended attribution:
+
+DIY_Alliance Nixie Clock by Dimasssius
+Source: https://github.com/Dimasssius/DIY_Alliance_NixieClock
+License: CC BY 4.0
+
+If you modify the materials, indicate that changes were made.
+
+## 3. Third-party materials
+
+Third-party datasheets and other third-party documents are provided for
+reference only. They are not licensed by this project. All rights to those
+materials belong to their respective manufacturers, authors and rights holders.
+
+## 4. PCB source files and production files
+
+PCB source files, Gerber files, routing files and other PCB production files
+are not published in this repository and are not licensed for copying,
+manufacturing or redistribution through this project.
+
+## 5. No warranty
+
+All materials are provided "as is", without warranty of any kind. Use them at
+your own risk.
