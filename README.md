@@ -85,13 +85,20 @@
 
 Предназначена для опытных пользователей и расширенных вариантов сборки.
 
-Hardcore Edition разделяется на три комплектации:
+Hardcore Edition разделяется на две версии по количеству индикаторов:
+
+| Версия платы | Назначение |
+| --- | --- |
+| [x4 SMD](hardcore/assembly/x4-smd/) | Версия Hardcore для 4 индикаторов |
+| [x6 SMD](hardcore/assembly/x6-smd/) | Версия Hardcore для 6 индикаторов |
+
+Внутри каждой версии платы есть три комплектации:
 
 | Комплектация | Назначение |
 | --- | --- |
-| [Minimal Configuration](hardcore/assembly/minimal-configuration/) | Минимальная комплектация компонентов, необходимая для запуска часов |
-| [Base Configuration](hardcore/assembly/base-configuration/) | Стандартная комплектация с реализацией всех основных функций часов |
-| [Maximal Configuration](hardcore/assembly/maximal-configuration/) | Максимальная комплектация с добавлением датчиков температуры, IR-приемника и других опций |
+| Minimal Configuration | Минимальная комплектация компонентов, необходимая для запуска часов |
+| Base Configuration | Стандартная комплектация с реализацией всех основных функций часов |
+| Maximal Configuration | Максимальная комплектация с добавлением датчиков температуры, IR-приемника и других опций |
 
 Возможные материалы:
 
@@ -133,9 +140,14 @@ DIY_Alliance_NixieClock/
 |   |-- renders/
 |   |-- 3d-models/
 |   |-- assembly/
-|   |   |-- minimal-configuration/
-|   |   |-- base-configuration/
-|   |   `-- maximal-configuration/
+|   |   |-- x4-smd/
+|   |   |   |-- minimal-configuration/
+|   |   |   |-- base-configuration/
+|   |   |   `-- maximal-configuration/
+|   |   `-- x6-smd/
+|   |       |-- minimal-configuration/
+|   |       |-- base-configuration/
+|   |       `-- maximal-configuration/
 |   `-- faq/
 |
 |-- troubleshooting/
@@ -165,7 +177,7 @@ DIY_Alliance_NixieClock/
 | `photos/` | Фотографии плат, сборки и примеры монтажа |
 | `renders/` | Рендеры плат и устройств для документации и публикаций |
 | `3d-models/` | 3D-модели плат, корпусов и дополнительных деталей |
-| `assembly/` | Варианты комплектации Hardcore Edition: минимальная, базовая и максимальная |
+| `assembly/` | Материалы сборки Hardcore Edition по версиям x4/x6 SMD и комплектациям Minimal, Base, Maximal |
 | `faq/` | Частые вопросы по конкретной линейке плат |
 
 ## Поддерживаемые индикаторы
