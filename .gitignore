@@ -16,6 +16,7 @@ out/
 *.tmp
 *.bak
 *.log
+/Bill Of Materials - Excell.xlsx
 
 # PCB source files and production outputs are not published in this repository.
 *.kicad_pcb
