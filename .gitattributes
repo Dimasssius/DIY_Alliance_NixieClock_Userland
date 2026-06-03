@@ -1,0 +1,23 @@
+# Normalize text files in the repository.
+* text=auto eol=lf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+
+# Hardware and production outputs
+*.zip binary
+*.pdf binary
+*.step binary
+*.stp binary
+*.stl binary
+*.iges binary
+*.igs binary
+*.hex binary
+*.bin binary
+*.uf2 binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary

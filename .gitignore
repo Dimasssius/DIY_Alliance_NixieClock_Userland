@@ -1,0 +1,47 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Build and cache output
+build/
+dist/
+out/
+.cache/
+
+# Temporary archives and exports
+*.tmp
+*.bak
+*.log
+
+# PCB source files and production outputs are not published in this repository.
+*.kicad_pcb
+*.kicad_sch
+*.kicad_pro
+*.kicad_prl
+*.sch
+*.brd
+*.pcb
+*.gbr
+*.ger
+*.gbl
+*.gtl
+*.gbs
+*.gts
+*.gbo
+*.gto
+*.drl
+*.xln
+gerber/
+gerbers/
+production/
+
+# KiCad backups and local autosaves
+*-backups/
+*.kicad_pcb-bak
+*.sch-bak
+*.pro-bak
+*.kicad_sch-bak
