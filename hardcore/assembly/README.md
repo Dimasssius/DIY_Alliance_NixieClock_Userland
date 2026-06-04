@@ -6,8 +6,8 @@
 
 | Версия платы | Назначение |
 | --- | --- |
-| [x4 SMD](x4-smd/) | Версия Hardcore для 4 индикаторов |
-| [x6 SMD](x6-smd/) | Версия Hardcore для 6 индикаторов |
+| [Hardcore Boards x4 Tubes](hardcore-boards-x4-tubes/) | Версия Hardcore для 4 индикаторов |
+| [Hardcore Boards x6 Tubes](hardcore-boards-x6-tubes/) | Версия Hardcore для 6 индикаторов |
 
 ## Комплектации внутри каждой версии
 

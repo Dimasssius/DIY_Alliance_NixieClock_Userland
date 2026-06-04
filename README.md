@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 # DIY_Alliance Nixie Clock
 
@@ -68,15 +68,18 @@
 
 Подходит для большинства пользователей и первой самостоятельной сборки.
 
-Возможные материалы:
+Standard Edition разделяется на две версии по количеству индикаторов:
+
+| Версия платы | Назначение |
+| --- | --- |
+| [Standard Boards x4 Tubes](standard/assembly/standard-boards-x4-tubes/) | Версия Standard для 4 индикаторов |
+| [Standard Boards x6 Tubes](standard/assembly/standard-boards-x6-tubes/) | Версия Standard для 6 индикаторов |
+
+Общие материалы Standard:
 
 - `firmware/` - прошивки;
-- `bom/` - списки компонентов;
-- `schematics/` - электрические схемы;
 - `manuals/` - инструкции и руководства;
-- `photos/` - фотографии плат и сборки;
-- `renders/` - рендеры;
-- `3d-models/` - 3D-модели;
+- `assembly/` - BOM, схемы, изображения плат, 3D-модели и отчеты по версиям Standard Boards x4/x6 Tubes;
 - `faq/` - вопросы и ответы по Standard Edition.
 
 ## Hardcore Edition
@@ -89,8 +92,8 @@ Hardcore Edition разделяется на две версии по колич
 
 | Версия платы | Назначение |
 | --- | --- |
-| [x4 SMD](hardcore/assembly/x4-smd/) | Версия Hardcore для 4 индикаторов |
-| [x6 SMD](hardcore/assembly/x6-smd/) | Версия Hardcore для 6 индикаторов |
+| [Hardcore Boards x4 Tubes](hardcore/assembly/hardcore-boards-x4-tubes/) | Версия Hardcore для 4 индикаторов |
+| [Hardcore Boards x6 Tubes](hardcore/assembly/hardcore-boards-x6-tubes/) | Версия Hardcore для 6 индикаторов |
 
 Внутри каждой версии платы есть три комплектации:
 
@@ -100,15 +103,12 @@ Hardcore Edition разделяется на две версии по колич
 | Base Configuration | Стандартная комплектация с реализацией всех основных функций часов |
 | Maximal Configuration | Максимальная комплектация с добавлением датчиков температуры, IR-приемника и других опций |
 
-Возможные материалы:
+Общие материалы Hardcore:
 
 - `firmware/` - прошивки;
-- `bom/` - списки компонентов;
-- `schematics/` - электрические схемы;
+- `datasheets/` - даташиты компонентов;
 - `manuals/` - инструкции и руководства;
-- `photos/` - фотографии плат и сборки;
-- `renders/` - рендеры;
-- `3d-models/` - 3D-модели;
+- `assembly/` - BOM, схемы, изображения плат, 3D-материалы и отчеты по версиям Hardcore Boards x4/x6 Tubes и комплектациям;
 - `faq/` - вопросы и ответы по Hardcore Edition.
 
 ## Структура репозитория
@@ -123,28 +123,22 @@ DIY_Alliance_NixieClock/
 |
 |-- standard/
 |   |-- firmware/
-|   |-- bom/
-|   |-- schematics/
 |   |-- manuals/
-|   |-- photos/
-|   |-- renders/
-|   |-- 3d-models/
+|   |-- assembly/
+|   |   |-- standard-boards-x4-tubes/
+|   |   `-- standard-boards-x6-tubes/
 |   `-- faq/
 |
 |-- hardcore/
 |   |-- firmware/
-|   |-- bom/
-|   |-- schematics/
+|   |-- datasheets/
 |   |-- manuals/
-|   |-- photos/
-|   |-- renders/
-|   |-- 3d-models/
 |   |-- assembly/
-|   |   |-- x4-smd/
+|   |   |-- hardcore-boards-x4-tubes/
 |   |   |   |-- minimal-configuration/
 |   |   |   |-- base-configuration/
 |   |   |   `-- maximal-configuration/
-|   |   `-- x6-smd/
+|   |   `-- hardcore-boards-x6-tubes/
 |   |       |-- minimal-configuration/
 |   |       |-- base-configuration/
 |   |       `-- maximal-configuration/
@@ -165,19 +159,19 @@ DIY_Alliance_NixieClock/
 | `common/` | Общие материалы, которые относятся к обеим линейкам |
 | `images/` | Общие изображения для README и документации |
 
-## Назначение папок внутри Standard и Hardcore
+## Назначение папок
 
 | Папка | Что хранится |
 | --- | --- |
 | `firmware/` | Готовые прошивки, релизы и инструкции по обновлению |
-| `bom/` | Списки компонентов: номиналы, корпуса, количество и примечания |
-| `datasheets/` | Даташиты компонентов для выбранной линейки платы |
-| `schematics/` | Открытые электрические схемы для проверки и понимания устройства |
+| `bom/` | Списки компонентов: номиналы, корпуса, количество и примечания. Для Standard и Hardcore лежат внутри `assembly/` |
+| `datasheets/` | Даташиты компонентов |
+| `schematics/` | Открытые электрические схемы для проверки и понимания устройства. Для Standard и Hardcore лежат внутри `assembly/` |
 | `manuals/` | Инструкции по сборке, первому запуску, настройке и эксплуатации |
-| `photos/` | Фотографии плат, сборки и примеры монтажа |
-| `renders/` | Рендеры плат и устройств для документации и публикаций |
-| `3d-models/` | 3D-модели плат, корпусов и дополнительных деталей |
-| `assembly/` | Материалы сборки Hardcore Edition по версиям x4/x6 SMD и комплектациям Minimal, Base, Maximal |
+| `photos/` | Фотографии плат, сборки и примеры монтажа. Для Standard и Hardcore материалы по платам лежат внутри `assembly/` |
+| `renders/` | Рендеры плат и устройств для документации и публикаций. Для Standard и Hardcore материалы по платам лежат внутри `assembly/` |
+| `3d-models/` | 3D-модели плат, корпусов и дополнительных деталей. Для Standard и Hardcore материалы по платам лежат внутри `assembly/` |
+| `assembly/` | Материалы сборки Standard и Hardcore по версиям плат, комплектациям и вариантам монтажа |
 | `faq/` | Частые вопросы по конкретной линейке плат |
 
 ## Поддерживаемые индикаторы
