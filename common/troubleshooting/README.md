@@ -1,4 +1,4 @@
-# Troubleshooting Notes
+# Troubleshooting
 
 Общие типовые проблемы и проверки после сборки DIY_Alliance Nixie Clock.
 
@@ -74,4 +74,4 @@
 
 ## Ошибки при запуске
 
-Коды ошибок при запуске описаны в [User Guide](USER_GUIDE.md#коды-ошибок).
+Коды ошибок при запуске описаны в [User Guide](../manuals/USER_GUIDE.md#коды-ошибок).

@@ -15,8 +15,9 @@
 - [`common/manuals/`](common/manuals/) - общие руководства по сборке, эксплуатации, диагностике и управлению кнопками;
 - `assembly/` - BOM, схемы, изображения плат и 3D-материалы;
 - `firmware/` - прошивки и заметки по совместимости;
+- [`common/indicators/`](common/indicators/) - база поддерживаемых индикаторов и совместимых сокетов;
 - [`common/firmware/CONFIGURATION.md`](common/firmware/CONFIGURATION.md) - настройка прошивки, подбор катодной маски и порядка анодов;
-- `troubleshooting/` - типовые проблемы и диагностика.
+- [`common/troubleshooting/`](common/troubleshooting/) - типовые проблемы и диагностика.
 
 ## 3. Прошивка
 
@@ -28,7 +29,7 @@
 
 ## 4. Если что-то не работает
 
-Откройте [FAQ.md](FAQ.md), затем раздел [`troubleshooting/`](troubleshooting/).
+Откройте [FAQ.md](FAQ.md), затем раздел [`common/troubleshooting/`](common/troubleshooting/).
 
 ## 5. Важно
 
