@@ -1,4 +1,7 @@
 # Standard Boards x4 Tubes
+<p align="center">
+  <img src="pcb-3d-print/Верхний%20слой%20(Печатная%20плата).png" alt="Standard Boards x4 Tubes PCB top layer" width="900">
+</p>
 
 Материалы для версии Standard на 4 индикатора.
 

@@ -17,29 +17,6 @@
 Здесь собраны открытые материалы для сборки, настройки, прошивки, обслуживания и эксплуатации часов на газоразрядных индикаторах.
 
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="standard/assembly/standard-boards-x4-tubes/pcb-3d-print/Верхний%20слой%20(Печатная%20плата).png" alt="Standard Boards x4 Tubes PCB top layer" width="100%"><br>
-      <sub>Standard Boards x4 Tubes</sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="standard/assembly/standard-boards-x6-tubes/pcb-3d-print/Верхний%20слой%20(Печатная%20плата).png" alt="Standard Boards x6 Tubes PCB top layer" width="100%"><br>
-      <sub>Standard Boards x6 Tubes</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <img src="hardcore/assembly/hardcore-boards-x4-tubes/base-configuration/pcb-3d-print/Top%20Layer%20(Black,%20PCB).png" alt="Hardcore Boards x4 Tubes PCB top layer" width="100%"><br>
-      <sub>Hardcore Boards x4 Tubes</sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="hardcore/assembly/hardcore-boards-x6-tubes/base-configuration/pcb-3d-print/Top%20Layer%20(Black,%20PCB).png" alt="Hardcore Boards x6 Tubes PCB top layer" width="100%"><br>
-      <sub>Hardcore Boards x6 Tubes</sub>
-    </td>
-  </tr>
-</table>
-
 </div>
 
 ---

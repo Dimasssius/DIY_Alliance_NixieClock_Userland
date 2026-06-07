@@ -8,10 +8,10 @@
 
 Standard Edition делится на две версии по количеству индикаторов:
 
-| Версия платы | Назначение |
-| --- | --- |
-| [Standard Boards x4 Tubes](assembly/standard-boards-x4-tubes/) | Версия Standard для 4 индикаторов |
-| [Standard Boards x6 Tubes](assembly/standard-boards-x6-tubes/) | Версия Standard для 6 индикаторов |
+| Вид платы | Версия платы | Назначение |
+| --- | --- | --- |
+| <img src="assembly/standard-boards-x4-tubes/pcb-3d-print/Верхний%20слой%20(Печатная%20плата).png" alt="Standard Boards x4 Tubes PCB" width="220"> | [Standard Boards x4 Tubes](assembly/standard-boards-x4-tubes/) | Версия Standard для 4 индикаторов |
+| <img src="assembly/standard-boards-x6-tubes/pcb-3d-print/Верхний%20слой%20(Печатная%20плата).png" alt="Standard Boards x6 Tubes PCB" width="220"> | [Standard Boards x6 Tubes](assembly/standard-boards-x6-tubes/) | Версия Standard для 6 индикаторов |
 
 Все материалы по сборке лежат в папке [assembly](assembly/).
 

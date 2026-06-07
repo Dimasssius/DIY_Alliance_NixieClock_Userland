@@ -8,10 +8,10 @@
 
 Hardcore Edition делится на две версии по количеству индикаторов:
 
-| Версия платы | Назначение |
-| --- | --- |
-| [Hardcore Boards x4 Tubes](assembly/hardcore-boards-x4-tubes/) | Версия Hardcore для 4 индикаторов |
-| [Hardcore Boards x6 Tubes](assembly/hardcore-boards-x6-tubes/) | Версия Hardcore для 6 индикаторов |
+| Вид платы | Версия платы | Назначение |
+| --- | --- | --- |
+| <img src="assembly/hardcore-boards-x4-tubes/base-configuration/pcb-3d-print/Top%20Layer%20(Black,%20PCB).png" alt="Hardcore Boards x4 Tubes PCB" width="220"> | [Hardcore Boards x4 Tubes](assembly/hardcore-boards-x4-tubes/) | Версия Hardcore для 4 индикаторов |
+| <img src="assembly/hardcore-boards-x6-tubes/base-configuration/pcb-3d-print/Top%20Layer%20(Black,%20PCB).png" alt="Hardcore Boards x6 Tubes PCB" width="220"> | [Hardcore Boards x6 Tubes](assembly/hardcore-boards-x6-tubes/) | Версия Hardcore для 6 индикаторов |
 
 Внутри каждой версии платы есть три комплектации:
 

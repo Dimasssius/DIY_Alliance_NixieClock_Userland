@@ -1,4 +1,7 @@
 # Hardcore Boards x6 Tubes
+<p align="center">
+  <img src="base-configuration/pcb-3d-print/Top%20Layer%20(Black,%20PCB).png" alt="Hardcore Boards x6 Tubes PCB top layer" width="900">
+</p>
 
 Материалы для версии Hardcore на 6 индикаторов.
 
