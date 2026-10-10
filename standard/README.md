@@ -1,23 +1,31 @@
+[Главная](../README.md) / Standard
+
 # Standard Edition
 
-Материалы для плат DIY_Alliance Nixie Clock Standard Edition.
+Базовая линейка часов DIY_Alliance. Сборочные документы выбираются по количеству индикаторов, варианту монтажа и ориентации индикаторов.
 
-Этот раздел предназначен для базовой версии платы: прошивки, инструкции, ответы на частые вопросы и материалы сборки по версиям плат.
+## Выберите количество индикаторов
 
-## Версии плат
-
-Standard Edition делится на две версии по количеству индикаторов:
-
-| Вид платы | Версия платы | Назначение |
+| Плата | Вид платы | Материалы |
 | --- | --- | --- |
-| <img src="assembly/standard-boards-x4-tubes/pcb-3d-print/Верхний%20слой%20(Печатная%20плата).png" alt="Standard Boards x4 Tubes PCB" width="220"> | [Standard Boards x4 Tubes](assembly/standard-boards-x4-tubes/) | Версия Standard для 4 индикаторов |
-| <img src="assembly/standard-boards-x6-tubes/pcb-3d-print/Верхний%20слой%20(Печатная%20плата).png" alt="Standard Boards x6 Tubes PCB" width="220"> | [Standard Boards x6 Tubes](assembly/standard-boards-x6-tubes/) | Версия Standard для 6 индикаторов |
+| **Standard · 4 индикатора** | <img src="assembly/standard-boards-x4-tubes/pcb-3d-print/Верхний%20слой%20%28Печатная%20плата%29.png" alt="Верхняя сторона Standard на 4 индикатора" width="220"> | [Выбрать документы](assembly/standard-boards-x4-tubes/README.md) |
+| **Standard · 6 индикаторов** | <img src="assembly/standard-boards-x6-tubes/pcb-3d-print/Верхний%20слой%20%28Печатная%20плата%29.png" alt="Верхняя сторона Standard на 6 индикаторов" width="220"> | [Выбрать документы](assembly/standard-boards-x6-tubes/README.md) |
 
-Все материалы по сборке лежат в папке [assembly](assembly/).
+## Варианты Standard
 
-## Общие разделы Standard
+Для каждой платы есть документы на **выводной монтаж** и **поверхностный монтаж (SMD)**, с **вертикальными** или **горизонтальными** индикаторами. Выбирайте одинаковый вариант в BOM, схеме и сборочном чертеже.
 
-- [assembly](assembly/) - материалы сборки по версиям Standard Boards x4/x6 Tubes;
-- [firmware](firmware/) - прошивки и инструкции по обновлению;
-- [manuals](manuals/) - инструкции по сборке, запуску и эксплуатации;
-- [faq](faq/) - частые вопросы по Standard Edition.
+## Сборка, прошивка и использование
+
+| Задача | Раздел |
+| --- | --- |
+| Подготовиться к первой сборке | [Начало работы](../START_HERE.md) |
+| Найти инструкцию | [Инструкции Standard](manuals/README.md) |
+| Настроить и загрузить прошивку | [Совместимость Standard](firmware/README.md) · [Общий порядок настройки](../common/firmware/CONFIGURATION.md) |
+| Настроить время, подсветку и будильник | [Управление часами](../common/manuals/USER_GUIDE.md) |
+| Найти ответ или причину неисправности | [Вопросы по Standard](faq/README.md) · [Диагностика](../common/troubleshooting/README.md) |
+
+> [!NOTE]
+> PDF-инструкции по сборке опубликованы для x4 и x6. Готовые сборки прошивок для скачивания пока отсутствуют; доступны заметки по настройке.
+
+Ревизию уточняйте по маркировке платы. Изображения в каталоге служат визуальным ориентиром. [Полный каталог сборочных материалов](assembly/README.md).

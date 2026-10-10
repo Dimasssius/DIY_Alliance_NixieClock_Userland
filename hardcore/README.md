@@ -1,42 +1,38 @@
+[Главная](../README.md) / Hardcore
+
 # Hardcore Edition
 
-Материалы для плат DIY_Alliance Nixie Clock Hardcore Edition.
+Расширенная линейка часов DIY_Alliance. Сборочные документы выбираются по количеству индикаторов и комплектации.
 
-Этот раздел предназначен для расширенной версии платы: прошивки, инструкции, даташиты, ответы на частые вопросы и материалы сборки по версиям плат.
+## Выберите количество индикаторов
 
-## Версии плат и комплектации
-
-Hardcore Edition делится на две версии по количеству индикаторов:
-
-| Вид платы | Версия платы | Назначение |
+| Плата | Вид платы | Материалы |
 | --- | --- | --- |
-| <img src="assembly/hardcore-boards-x4-tubes/base-configuration/pcb-3d-print/Top%20Layer%20(Black,%20PCB).png" alt="Hardcore Boards x4 Tubes PCB" width="220"> | [Hardcore Boards x4 Tubes](assembly/hardcore-boards-x4-tubes/) | Версия Hardcore для 4 индикаторов |
-| <img src="assembly/hardcore-boards-x6-tubes/base-configuration/pcb-3d-print/Top%20Layer%20(Black,%20PCB).png" alt="Hardcore Boards x6 Tubes PCB" width="220"> | [Hardcore Boards x6 Tubes](assembly/hardcore-boards-x6-tubes/) | Версия Hardcore для 6 индикаторов |
+| **Hardcore · 4 индикатора** | <img src="assembly/hardcore-boards-x4-tubes/base-configuration/pcb-3d-print/Top%20Layer%20%28Black%2C%20PCB%29.png" alt="Верхняя сторона Hardcore на 4 индикатора, базовая комплектация" width="220"> | [Выбрать комплектацию](assembly/hardcore-boards-x4-tubes/README.md) |
+| **Hardcore · 6 индикаторов** | <img src="assembly/hardcore-boards-x6-tubes/base-configuration/pcb-3d-print/Top%20Layer%20%28Black%2C%20PCB%29.png" alt="Верхняя сторона Hardcore на 6 индикаторов, базовая комплектация" width="220"> | [Выбрать комплектацию](assembly/hardcore-boards-x6-tubes/README.md) |
 
-Внутри каждой версии платы есть три комплектации:
+## Комплектации Hardcore
 
-| Комплектация | Назначение |
+| Название в документах | Как понимать |
 | --- | --- |
-| Minimal Configuration | Минимальная комплектация компонентов, необходимая для запуска часов |
-| Base Configuration | Стандартная комплектация с реализацией всех основных функций часов |
-| Maximal Configuration | Максимальная комплектация с дополнительными датчиками и модулями: температура, IR-приемник и другие опции |
+| Minimal | Минимальная комплектация компонентов для запуска часов |
+| Base | Базовая комплектация с основными функциями |
+| Maximal | Расширенная комплектация с дополнительными датчиками и модулями |
 
-Все материалы по сборке лежат в папке [assembly](assembly/).
+Выбирайте комплектацию по своему набору и BOM. Наличие отдельных функций проверяйте по схеме и настройкам прошивки.
 
-Внутри каждой комплектации используются одинаковые разделы с файлами для сборки и проверки:
+## Сборка, прошивка и использование
 
-- `pdf3d/` - 3D PDF и похожие интерактивные материалы;
-- `schematic-print/` - печатные версии схем;
-- `pcb-3d-print/` - 3D-представления печатной платы;
-- `pcb-print/` - печатные изображения платы;
-- `bom/` - список компонентов;
-- `report-board-stack/` - отчеты по стеку платы;
-- `pick-place/` - pick and place файлы, если они разрешены к публикации.
+| Задача | Раздел |
+| --- | --- |
+| Подготовиться к первой сборке | [Начало работы](../START_HERE.md) |
+| Найти инструкцию | [Инструкции Hardcore](manuals/README.md) |
+| Настроить и загрузить прошивку | [Совместимость Hardcore](firmware/README.md) · [Общий порядок настройки](../common/firmware/CONFIGURATION.md) |
+| Настроить время, подсветку и будильник | [Управление часами](../common/manuals/USER_GUIDE.md) |
+| Найти ответ или причину неисправности | [Вопросы по Hardcore](faq/README.md) · [Диагностика](../common/troubleshooting/README.md) |
+| Найти характеристики компонентов | [Даташиты](datasheets/README.md) |
 
-## Общие разделы Hardcore
+> [!NOTE]
+> Отдельная пошаговая инструкция Hardcore и готовые сборки прошивок пока не опубликованы. Доступны схемы, BOM, чертежи и общие руководства.
 
-- [assembly](assembly/) - материалы сборки по версиям Hardcore Boards x4/x6 Tubes и комплектациям;
-- [datasheets](datasheets/) - даташиты компонентов;
-- [firmware](firmware/) - прошивки и инструкции по обновлению;
-- [manuals](manuals/) - инструкции по сборке, запуску и эксплуатации;
-- [faq](faq/) - частые вопросы по Hardcore Edition.
+Ревизию уточняйте по маркировке платы. Изображения в каталоге служат визуальным ориентиром. [Полный каталог сборочных материалов](assembly/README.md).

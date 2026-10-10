@@ -1,12 +1,27 @@
-# Hardcore Boards x6 Tubes
+[Главная](../../../README.md) / [Hardcore](../../README.md) / [Материалы сборки](../README.md) / 6 индикаторов
+
+# Hardcore · 6 индикаторов
+
 <p align="center">
-  <img src="base-configuration/pcb-3d-print/Top%20Layer%20(Black,%20PCB).png" alt="Hardcore Boards x6 Tubes PCB top layer" width="900">
+  <img src="base-configuration/pcb-3d-print/Top%20Layer%20%28Black%2C%20PCB%29.png" alt="Верхняя сторона платы Hardcore · 6 индикаторов, базовая комплектация" width="850">
 </p>
 
-Материалы для версии Hardcore на 6 индикаторов.
+## Выберите свою комплектацию
 
-| Комплектация | Назначение |
-| --- | --- |
-| [Minimal Configuration](minimal-configuration/) | Минимальная комплектация компонентов, необходимая для запуска часов |
-| [Base Configuration](base-configuration/) | Стандартная комплектация с реализацией всех основных функций часов |
-| [Maximal Configuration](maximal-configuration/) | Максимальная комплектация с дополнительными датчиками и модулями |
+Комплектации относятся к установленным компонентам. Выбирайте по своему набору и BOM; ревизию платы проверяйте отдельно.
+
+| Комплектация | Назначение | Документы |
+| --- | --- | --- |
+| **Minimal — минимальная** | Компоненты, необходимые для запуска часов | [BOM, схема и чертёж](minimal-configuration/README.md) |
+| **Base — базовая** | Основные функции часов | [BOM, схема и чертёж](base-configuration/README.md) |
+| **Maximal — расширенная** | Дополнительные датчики и модули | [BOM, схема и чертёж](maximal-configuration/README.md) |
+
+На изображении выше показана базовая комплектация. Рендеры выбранного варианта находятся на его странице.
+
+## Что делать дальше
+
+1. Откройте страницу своей комплектации и документы сборки.
+2. Прочитайте [рекомендации по сборке](../../../common/manuals/ASSEMBLY_GUIDE.md) и [статус инструкции Hardcore](../../manuals/README.md).
+3. Сверьте [совместимость прошивки](../../firmware/README.md) и выполните [настройку](../../../common/firmware/CONFIGURATION.md).
+
+После сборки: [управление часами](../../../common/manuals/USER_GUIDE.md). При неисправностях: [диагностика](../../../common/troubleshooting/README.md).
