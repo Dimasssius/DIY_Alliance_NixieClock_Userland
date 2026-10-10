@@ -1,0 +1,8 @@
+Use case: ads-marketing
+Asset type: a finished, elegant GitHub documentation masthead banner for DIY_Alliance Nixie Clock.
+Primary request: a professional wide panoramic 3:1 banner, ideally 1920 by 640 pixels. This is decorative editorial artwork about Nixie clocks, not a photograph documenting a specific PCB or kit.
+Subject: a restrained arrangement of six realistic glass Nixie tubes with warm amber orange digits reading 1 2 3 4 5 6. The tubes and their delicate internal cathode structures are crisp, sophisticated, and occupy roughly the right half.
+Scene/backdrop: deep graphite charcoal background with subtle copper circuit traces and a soft warm glow. Clean engineering editorial aesthetic, generous negative space, no busy collage.
+Text (verbatim): "DIY_ALLIANCE" and, on a separate line, "NIXIE CLOCK". Only these two lines of text, in precise modern white typography, aligned on the left, high contrast and readable at a displayed width of 800 pixels.
+Style/medium: premium studio illustration and realistic materials, understated light, amber glow, black graphite, copper and warm white. Broad margins, no important details near the edges.
+Constraints: complete banner composition filling the landscape canvas; no letterboxing, no extra slogans, no watermarks, no fake brand marks, no invented hardware specifications. Avoid neon cyberpunk clutter, excessive blooming, tiny illegible text, unnecessary decoration.

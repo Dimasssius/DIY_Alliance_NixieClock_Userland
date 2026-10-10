@@ -1,13 +1,15 @@
 [Главная](../README.md) / Standard
 
-# Standard Edition
+# 🔧 Standard Edition
+
+<img src="../images/banners/wiki-hero.png" alt="Обложка DIY_Alliance Nixie Clock" width="100%">
 
 Базовая линейка часов DIY_Alliance. Сборочные документы выбираются по количеству индикаторов, варианту монтажа и ориентации индикаторов.
 
 ## Выберите количество индикаторов
 
 | Плата | Вид платы | Материалы |
-| --- | --- | --- |
+| :--- | :---: | :--- |
 | **Standard · 4 индикатора** | <img src="assembly/standard-boards-x4-tubes/pcb-3d-print/Верхний%20слой%20%28Печатная%20плата%29.png" alt="Верхняя сторона Standard на 4 индикатора" width="220"> | [Выбрать документы](assembly/standard-boards-x4-tubes/README.md) |
 | **Standard · 6 индикаторов** | <img src="assembly/standard-boards-x6-tubes/pcb-3d-print/Верхний%20слой%20%28Печатная%20плата%29.png" alt="Верхняя сторона Standard на 6 индикаторов" width="220"> | [Выбрать документы](assembly/standard-boards-x6-tubes/README.md) |
 
@@ -18,7 +20,7 @@
 ## Сборка, прошивка и использование
 
 | Задача | Раздел |
-| --- | --- |
+| :--- | :--- |
 | Подготовиться к первой сборке | [Начало работы](../START_HERE.md) |
 | Найти инструкцию | [Инструкции Standard](manuals/README.md) |
 | Настроить и загрузить прошивку | [Совместимость Standard](firmware/README.md) · [Общий порядок настройки](../common/firmware/CONFIGURATION.md) |

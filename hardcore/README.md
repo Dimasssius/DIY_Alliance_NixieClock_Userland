@@ -1,20 +1,22 @@
 [Главная](../README.md) / Hardcore
 
-# Hardcore Edition
+# ⚡ Hardcore Edition
+
+<img src="../images/banners/wiki-hero.png" alt="Обложка DIY_Alliance Nixie Clock" width="100%">
 
 Расширенная линейка часов DIY_Alliance. Сборочные документы выбираются по количеству индикаторов и комплектации.
 
 ## Выберите количество индикаторов
 
 | Плата | Вид платы | Материалы |
-| --- | --- | --- |
+| :--- | :---: | :--- |
 | **Hardcore · 4 индикатора** | <img src="assembly/hardcore-boards-x4-tubes/base-configuration/pcb-3d-print/Top%20Layer%20%28Black%2C%20PCB%29.png" alt="Верхняя сторона Hardcore на 4 индикатора, базовая комплектация" width="220"> | [Выбрать комплектацию](assembly/hardcore-boards-x4-tubes/README.md) |
 | **Hardcore · 6 индикаторов** | <img src="assembly/hardcore-boards-x6-tubes/base-configuration/pcb-3d-print/Top%20Layer%20%28Black%2C%20PCB%29.png" alt="Верхняя сторона Hardcore на 6 индикаторов, базовая комплектация" width="220"> | [Выбрать комплектацию](assembly/hardcore-boards-x6-tubes/README.md) |
 
 ## Комплектации Hardcore
 
 | Название в документах | Как понимать |
-| --- | --- |
+| :--- | :--- |
 | Minimal | Минимальная комплектация компонентов для запуска часов |
 | Base | Базовая комплектация с основными функциями |
 | Maximal | Расширенная комплектация с дополнительными датчиками и модулями |
@@ -24,7 +26,7 @@
 ## Сборка, прошивка и использование
 
 | Задача | Раздел |
-| --- | --- |
+| :--- | :--- |
 | Подготовиться к первой сборке | [Начало работы](../START_HERE.md) |
 | Найти инструкцию | [Инструкции Hardcore](manuals/README.md) |
 | Настроить и загрузить прошивку | [Совместимость Hardcore](firmware/README.md) · [Общий порядок настройки](../common/firmware/CONFIGURATION.md) |
